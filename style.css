@@ -1,0 +1,84 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    }
+
+.gallery{
+
+    height: 100vh;
+    background-color: aqua;
+display: grid;
+
+grid-template-columns: 40% 60%;
+}
+
+
+.one{
+    background-image: url(./assets/images\ appclick.jpeg);
+
+display: flex;
+    background-size: cover;
+    justify-content: end;
+}
+.two{
+padding-top: 100px;
+padding-left: 80px;
+    background-color: white;
+    grid-row: 1;
+    
+}
+.submit{
+    background-color: rgb(8, 184, 8);
+    border-radius: 3px;
+    height: 50px;
+    width: 370px;
+    padding: 7px;
+}
+.radius{
+    border-radius: 3px;
+    height: 30px;
+    width: 350px;
+    padding: 7px;
+}
+.pass{
+    
+    border-radius: 3px;
+    height: 30px;
+    width: 350px;
+    padding: 7px;
+        
+}
+.con{
+position: relative;
+width: fit-content;
+}
+.con .icon{
+    position: absolute;
+    left: 94%;
+    top: 40%;
+}
+.con2{
+    position: relative;
+    width: fit-content;
+    }
+    .con2 .icon2{
+        position: absolute;
+        left: 94%;
+        top: 30%;
+    }
+.font{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+    .logo{
+    margin-left: 30px;
+    height: 100px;
+    width: 150px;
+}
+
+.fp{
+    color: black;
+    margin: 4px;
+    text-decoration-line: none;
+    
+    
+}

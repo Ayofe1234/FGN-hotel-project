@@ -1,0 +1,48 @@
+/* @media screen and (min-width 600px and max-width: 800px){
+    div{
+        font-size: 50px;
+        color: #00ffff;
+    }
+} */
+
+/* laptop devices screen size */
+@media screen and(min-width: 600px and max-width:800px){
+    /* h1{
+        font-size: 50px;
+        color: aqua;
+    }  */
+    nav ul{display: none;}
+}
+section{
+    /* height: 100vh;
+    width: 100dvw;
+    display: flex;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+div{
+    height: 200px;
+    width: 150px;
+    background-color: aqua;
+    margin-bottom: 1px;
+}
+div:nth-child(odd){
+
+    background-color: bisque;
+}
+footer{
+    justify-items: center;
+    justify-content: space-between;
+    display: flex;
+    height: 50px;
+    width: 100dvw;
+    background-color: rgb(240, 20, 20);
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    margin-left: 50px;
+    list-style: none;
+}

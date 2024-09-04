@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    height: 100px;
+    width: 86rem;
+    background-color: black;
+    display:flex;
+    flex-wrap: wrap;
+    position: relative;
+align-items: center;
+
+}
+img{height: 80px; width: 100px;
+margin-left: 10px;
+}
+.king{
+   position: relative;
+   display: flexbox;
+   
+    left: 450px;
+    text-decoration: none;
+    color: #f3f7f2;
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+.king:hover {
+    color: blue;
+    background-color: blanchedalmond;
+filter: opacity(px);
+}
+.main{
+    background-color: black;
+    height: 2300px;
+    width: 100dvw;
+    display: grid; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    object-fit: cover;
+
+}
+
+#con{
+   grid-row-start: 1;
+   grid-row-end: 3;}
+
+   #conta{
+    grid-row-start: 10;
+    grid-row-end: 12;}
+
+.container{
+    object-fit: cover;
+    padding: 20px;
+    background-color: black;
+    height: 100%;
+width: 100%;   
+position: relative; 
+
+}
+
+a img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    filter: blur(5px);
+
+}
+a:hover img{
+    filter: blur(0);
+    transition: 1s;
+    transform: scale(1.1);
+}
+a .texthouse{
+    height: 100%;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    position: absolute;
+    display: flex;
+    opacity: 0;
+}
+a:hover .texthouse{
+    opacity: 1;
+}
+span{
+    color: blue;
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+    position: relative;
+    left: 40%;
+    text-transform: uppercase;
+}
+span::before{
+content: "";
+height: 4px;
+width: 0;
+left: -10px;
+bottom: -7px;
+background-color: blue;
+position: absolute;
+}
+span::after{
+    
+    content: "";
+    height: 4px;
+    width: 0;
+    right: -8px;
+    top: -7px;
+    background-color: blue;
+    position: absolute;
+    }
+a:hover span::before, a:hover span::after{
+    width: 160px;
+    transition: 1s;
+}
+.foot{
+    background-color:black;
+    height: 350px;
+    width: 100dvw;
+    display: flexbox;
+    text-align: center;
+    align-items: center;
+position: absolute;
+    justify-content: center;
+}
+.foot div{
+}
+p1{
+    color: white;
+}
+
+.fa-brands{
+    height: 50px;
+    width: 50px;
+}
+
+
+

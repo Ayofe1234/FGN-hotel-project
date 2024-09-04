@@ -1,0 +1,40 @@
+.gallery{height: 2000px;
+    width: 100dvw;
+    background-color: rgba(20, 19, 18, 0.774);
+    display: grid;
+    position: relative;
+    justify-content: center;
+    
+    grid-template-columns: 50% 50%;
+    grid-template-rows:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   
+}
+.image img{background-color: blanchedalmond;
+    height: 8.3%;
+    width: 50%;
+    position: absolute;
+    display:flex; 
+    filter: blur(1px);
+}
+.image img:hover{
+    filter: blur(0px);
+    
+}
+
+
+
+.image .texthouse{
+    background-image: url(./assets/Build1.jpeg);
+    background-size: cover;
+    height: 8.3%;
+    width: 50%;
+    position: absolute;
+    display: flex;
+  filter:opacity(0)
+
+}
+.image .texthouse:hover{
+    filter:opacity(1)
+
+    
+}

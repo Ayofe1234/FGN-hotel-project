@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    height: 80px;
+    width: 100dvw;
+    display: grid;
+    position: relative;
+    background-color: aqua;
+    grid-template-rows: 1fr 1fr;
+}
+.one{background-color: black;
+font-size: small;
+color: white;
+
+
+}
+.two{background-color: rgb(14, 206, 46);
+justify-content: center;
+align-items: center;
+align-content: center;
+}
+.right{
+    position: absolute;
+    right: 10px;
+display: flex;
+}
+.left{
+    display: flex;
+    justify-content: center;
+align-items: center;
+display: flex;
+position: absolute;
+top: 10%;
+
+}
+.right1 ul{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    right: 10px;
+    bottom: 10px;
+    gap: 20px;
+
+}
+.main{
+    object-fit: cover;
+    background-image: url(./assets/Background\ hotel.jfif);
+    height: 500px;
+    width: 100dvw;
+    justify-content: center;
+    justify-items: center;
+    position: absolute;
+    align-items: center;
+    
+}
+.main .p{
+    position: relative;
+    font-weight: bolder;
+    font-size: large;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    top: 20%;
+}
+form{
+    position: absolute;
+    left: 38%;
+    top: 50%;
+}
+.foot{
+    position: absolute;
+    bottom: 10px;
+    width: 100dvw;
+    height: 50px;
+    background-color: rgb(39, 40, 41);
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    
+}
+.main2{
+    height: 100px;
+    width: 100dvw;
+    background-color: aqua;
+}

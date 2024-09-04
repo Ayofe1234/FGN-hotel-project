@@ -1,0 +1,55 @@
+*{
+    height: 100%vh;
+width: 100%;
+}
+.section{
+background-image: url(./assets/ManU.png);
+background-size: cover;
+display: flex;
+flex-wrap: wrap;
+width:100% ;
+height: 100%;
+justify-items: center;
+justify-content: center;
+padding: 1px;
+margin: px;}
+
+a{
+    color: aqua;
+    
+}
+.div1{background-image: url(./assets/Amad.jpeg);background-size:cover;margin: 10px; height: 200px; width: 200px;}
+.div2{background-image: url(./assets/Andar.jpeg); background-size:cover;margin:10px; height: 200px; width: 200px;}
+.div3{background-image: url(./assets/./Antony.jpeg);background-size:cover; margin:10px; height: 200px; width: 200px;}
+.div4{background-image: url(././assets/Bruno.jpeg); background-size:cover; margin:10px;height: 200px; width: 200px;}
+.div5{background-image: url(./assets/./Caemiro.jpeg);background-size:cover; margin:10px;height: 200px; width: 200px;}
+.div6{background-image: url(./assets/Daniel\ James.jpeg);background-size:cover; margin:10px;height: 200px; width: 200px;}
+.div7{background-image: url(./assets/Elanga.jpeg);background-size:cover; margin:10px;height: 200px; width: 200px;}
+.div8{background-image: url(./assets/Evans.jpeg);background-size:cover; margin:10px;height: 200px; width: 200px;}
+.div9{background-image: url(./assets/Ganar.jpeg);background-size:cover; margin:10px;height: 200px; width: 200px;}
+.div10{background-image: url(./assets/Greenwood.jpeg);background-size:cover; margin:10px;height: 200px; width: 200px;}
+.div11{background-image: url(./assets/Lindelof.jpeg);background-size:cover; margin:10px;height: 200px; width: 200px;}
+.div12{background-image: url(./assets/Maguire.jpeg);background-size:cover; margin:10px;height: 200px; width: 200px;}
+.div13{background-image: url(./assets/Mainoo.jpeg);background-size:cover; margin:10px;height: 200px; width: 200px;}
+.div14{background-image: url(./assets/Matic.jpeg);background-size:cover; margin:10px;height: 200px; width: 200px;}
+.div15{background-image: url(./assets/Matinez.jpeg);background-size:cover; margin:10px;height: 200px; width: 200px;}
+.div16{background-image: url(./assets/Onana.jpeg);background-size:cover; margin:10px;height: 200px; width: 200px;}
+.div17{background-image: url(./assets/Pogba.jpeg);background-size:cover; margin:10px;height: 200px; width: 200px;}
+.div18{background-image: url(./assets/Rashford.jpeg);background-size:cover; margin:10px;height: 200px; width: 200px;}
+.div19{background-image: url(./assets/Rasmus.jpeg);background-size:cover; margin:10px;height: 200px; width: 200px;}
+.div20{background-image: url(./assets/Sancho.jpeg);background-size:cover; margin:10px;height: 200px; width: 200px;}
+.div21{background-image: url(./assets/Ten\ Hag.jpeg);background-size:cover; margin:10px;height: 200px; width: 200px;}
+.div22{background-image: url(./assets/Tevez.jpeg);background-size:cover; margin:10px;height: 200px; width: 200px;}
+.div23{background-image: url(./assets/Yoro.jpeg);background-size:cover; margin:10px;height: 200px; width: 200px;}
+
+
+
+
+
+
+
+
+
+
+
+

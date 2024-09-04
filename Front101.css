@@ -1,0 +1,24 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    }
+
+
+
+.main{
+    background-color: aqua;
+height: 100vh;
+width: ;
+display: grid;
+flex-wrap: wrap;
+justify-content: center;
+justify-items: center;
+align-items: center;
+grid-template-columns: 50% 50%;
+grid-template-rows: 1fr 3fr 3fr;
+}
+.div1{
+   background: linear-gradient (to right, blue, white, red);
+   height: 100vh;
+   width: 300px;
+}

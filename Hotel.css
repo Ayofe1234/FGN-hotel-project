@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.mother{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    background-color: blue;
+}
+.one{
+height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+/* .two{
+    height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+    span{
+        height: 100%;
+        width: 100%;
+        
+        
+    } */

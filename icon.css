@@ -1,0 +1,132 @@
+*{
+padding: 0px;
+margin: 0px;
+
+}
+.one{
+    background-color: rgb(238, 217, 234);
+    height: 70px;
+    width: 100dvw;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    
+}
+.title{background-image: url(./assets/ManU.png);
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+    align-self: center;
+margin-left: 60px;
+justify-content: center;
+    
+}
+p{
+text-align: end;
+color: aqua;
+
+}
+h1{
+    font-style: inherit;
+    font-size:xx-large;
+    color: rgb(255, 16, 16);
+    align-content: center;
+    text-align: justify;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+
+div{margin: 4px;}
+.two{
+
+    background-color: aqua;
+    height: 100vh;
+    width: 100px;
+display: grid;
+grid-template-columns: 20% 20% 20% 20% 20%;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+.d1{
+    background-image: url(./assets/Amad.jpeg); 
+    background-size: cover;
+}
+.d2{
+    background-image: url(./assets/Andar.jpeg);
+    background-size: cover;
+}
+.d3{
+    background-image: url(./assets/Rasmus.jpeg);
+    background-size: cover;
+}
+.d4{
+    background-image: url(./assets/Sancho.jpeg);
+    background-size: cover;
+}
+.d5{
+    background-image: url(./assets/Tevez.jpeg);
+    background-size: cover;
+}
+.d6{
+    background-image: url(./assets/Yoro.jpeg);
+    background-size: cover;
+}
+.d7{
+    background-image: url(./assets/Rashford.jpeg);
+    background-size: cover;
+
+}
+.d8{
+    background-image: url(./assets/Pogba.jpeg);
+    background-size: cover;
+}
+.d9{
+    background-image: url(./assets/Bruno.jpeg);
+    background-size: cover;
+    grid-column-start: 5;
+    grid-column-end:3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.d10{
+    background-image: url(./assets/Antony.jpeg);
+    background-size: cover;
+}
+.d11{
+    background-image: url(./assets/Ganar.jpeg);
+    background-size: cover;
+}
+.d12{
+    background-image: url(./assets/Greenwood.jpeg);
+    background-size: cover;
+}
+.d13{
+    background-image: url(.//assets/Injured\ against\ Barcelona.jpeg);
+    background-size: cover;
+}
+.d14{
+    background-image: url(./assets/Maguire.jpeg);
+    background-size: cover;
+}
+.d15{
+    background-image: url(./assets/ManU\ 2008.jpeg);
+    background-size: cover;
+}
+.d16{
+    background-image: url(./assets/Ten\ Hag.jpeg);
+    background-size: cover;
+    grid-column-start: 5;
+    grid-column-end:3;
+    grid-row-start: 17;
+    grid-row-end: 3;
+
+}
+.d17{
+    background-image: url(./assets/Onana.jpeg);
+    background-size: cover;
+}
+.d18{
+    background-image: url(./assets/Matinez.jpeg);
+    background-size: cover;
+}
+

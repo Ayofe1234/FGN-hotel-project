@@ -1,0 +1,47 @@
+.uni{
+    background-color: rgb(74, 116, 13);
+    height: 50px;
+    width:100dvw ;
+    
+    align-content: center;
+}
+input{
+    margin-left: 40%;
+}
+.uni2{background-color:white;
+    height: 100px;
+    width: 100dvw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    align-content: center;
+}
+img{
+    width: px;
+    height: 100px;
+margin-left: 30%;
+}
+.uni11{
+    background-color: rgb(70, 107, 15);
+    height: 40px;
+    width: 100dvw;
+    border-style: inset;
+    border-color:  yellow;
+}
+.side{
+    height: 100vh;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    background-color: aqua;
+    display: none;
+}
+.side con{}
+.side con:hover{
+display: inline-table;
+
+}
+
+
