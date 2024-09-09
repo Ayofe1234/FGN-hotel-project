@@ -83,7 +83,13 @@ form{
     
 }
 .main2{
-    height: 100px;
+    height: 1000px;
     width: 100dvw;
     background-color: aqua;
+    grid-template-rows: 1fr 1fr; 
+}
+.grid{
+    height:70% ;
+    width: 70%;
+    background-color: blanchedalmond;
 }
