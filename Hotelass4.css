@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+    
+}
+
+.header{
+    height:80px;
+    width: 100dvw;
+    background-color:#242424;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    position:relative;
+    overflow: hidden;
+
+
+}
+.upper{
+    height: 30px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 1fr 1fr;
+    position: relative;
+    
+}
+.right{
+    position: relative;
+    left: 0px;
+    
+}
+.two{
+    height: 100px;
+    width: 900px;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 1fr 1fr;
+}
+.right1{
+    position: relative;
+    left: 300px;
+    top: 0px;
+    
+}
+ul li a{color: white;
+    text-decoration: none;
+}
+ul li a:focus{
+    color: yellow;
+    text-decoration: underline 2px;
+
+}
+.mainone{
+    height: 300px;
+    width: 100dvw;
+    background-image: url(./assets/Rectangle\ 3c.png);
+    background-size: 100% 100%;
+}
+.maintwo{height: 500px;
+width: 100dvw;
+display: flex;
+grid-template-columns: 50% 50%;
+justify-content: center;
+background-color: black;
+
+}
+.form{
+    width: 500px;
+    text-align: center;
+    top: 40px;
+}
+#left{
+    width: 700px;
+    position: relative;
+    text-align:  center;
+    
+    top: 40px;
+}
+#left1{position: relative;
+    background-color: yellow;
+    right: 250px;
+}
+.underline{
+    background-color: yellow;
+    width: 80px;
+    height: 3px;
+    position: relative;
+    left: 150px;
+    
+}
+.lastly{
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+    display: flex;
+    position: relative;
+    top: 50%;
+    justify-content: center;
+    justify-items: center;
+}
+.toptext{
+    text-align: center;
+    width: 380px;
+}
+#right{left: 50px;
+    top: 30px;
+    position: relative
+    
+    
+}

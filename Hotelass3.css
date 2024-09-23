@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+    
+}
+.everything{
+    height: 3200px;
+    width: 100dvw;
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    position: relative;
+    overflow: hidden;
+}
+.header{
+    height:80px;
+    width: 100dvw;
+    background-color: #242424;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    position:relative;
+    overflow: hidden;
+
+
+}
+.upper{
+    height: 30px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 1fr 1fr;
+    position: relative;
+    
+}
+.right{
+    position: relative;
+    left: 0px;
+    
+}
+.two{
+    height: 100px;
+    width: 900px;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 1fr 1fr;
+}
+.right1{
+    position: relative;
+    left: 300px;
+    top: 0px;
+    
+}
+ul li a{color: white;
+    text-decoration: none;
+}
+ul li a:focus{
+    color: yellow;
+    text-decoration: underline 2px;
+
+}
+
+
+.main1{
+    display: grid;
+    height: 500px;
+    width: 100dvw;
+    background-image: url(./assets/Rectangle\ 3a.png);
+    background-size: 100% 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+.main2{
+    background-color: black;
+    height: 550px;
+    width: 100dvw;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+   
+}
+.main2body{background-color:black;
+    height: 430px;
+    width: 100dvw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    justify-items: center;
+    
+
+}
+.main2body .div{
+    height: 400px;
+    align-content: center;
+    position: relative;
+    
+    
+}
+.heading{
+    font-size: x-large;
+    font-weight: bolder;
+}
+.line{
+    height: 5px;
+    width: 140px;
+    background-color: yellow;
+    position: relative;
+    left: 47%;
+    bottom: 7px;
+    
+}
+
+.main3{
+    background-image: url(./assets/Rectangle\ 73.png);
+    background-size: 100% 100%;
+    height: 450px;
+    width: 100dvw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    justify-items: center;
+}
+.main3 div{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    /* left: 6rem; */
+align-items: center;
+/* height: 400px;
+    align-content: center;
+    position: relative;
+    bottom:  67px; */
+}
+.main4{background-color:black;
+    height: 430px;
+    width: 100dvw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    
+    justify-items: center;
+
+}
+.main4 div{
+    position: relative;
+    /* left: 58px; */
+    
+    
+}
+
+
+.main5{
+    background-image: url(./assets/Rectangle\ 17a.png);
+    background-size: 100% 100%;
+    height: 450px;
+    width: 100dvw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    justify-items: center;
+}
+.main5 div{
+    
+    height: 100%;
+    width: 100%;
+    position: relative;
+    /* margin-left: 23rem; */
+align-items: center;
+}
+.main6{background-color:black;
+    
+    height: 430px;
+    width: 100dvw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    justify-items: center;
+
+}
+.main6 div{
+    position: relative;
+    /* left: 58px; */
+    
+}
+.last{
+    height: 330px;
+    width: 100dvw;
+    background-color:black;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 40%;
+    position: relative;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 50px;
+    
+    
+    }
+    .last div{
+        /* top: 70px; */
+        position: relative;
+        left: 40px;
+        
+    }
+    #dotbut{
+        position: relative;
+        left: 170px;
+        color: aqua;
+        
+    }
+    .imagediv{
+        position: relative;
+        left: 00px;
+    }
+    #textdiv{
+        position: relative;
+        width: 470px;
+        bottom: 0px;
+        left: 50px;
+    
+    }

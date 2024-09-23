@@ -1,38 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 .header{
     height:80px;
     width: 100dvw;
-    background-color:black;
+    background-color:#242424;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    position: relative;
+    position:relative;
+    
 
 }
 .upper{
     height: 30px;
-    width: 900px;
+    width: 100%;
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 75% 25%;
     grid-template-rows: 1fr 1fr;
+    position: relative;
+    
 }
 .right{
     position: relative;
-    left: 350px;
+    left: 0px;
+    
 }
 .two{
     height: 100px;
     width: 900px;
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 80% 20%;
     grid-template-rows: 1fr 1fr;
 }
 .right1{
     position: relative;
-    left: 160px;
+    left: 300px;
     top: 0px;
+    
+}
+ul li a{color: white;
+    text-decoration: none;
+}
+
+ul li a:focus{
+    color: yellow;
+    text-decoration: underline 2px;
+
 }
 .main1{
     background-color: black;
-    height: 500px;
+    height: 900px;
     width: 100dvw;
     display: block;
     position: relative;
@@ -43,7 +62,7 @@
 }
 .firstbg{
     height: 80%;
-    width: 100%;
+    width: 100dvw;
     background-image: url(./assets/Rectangle\ 3.png);
     background-size: 100% 100%;
     position: relative;
@@ -59,84 +78,148 @@
     align-items: center;
     text-align: center;
     height: 20%;
-    width: 100%;
+    width:100dvw ;
     background-color:rgb(27, 27, 27);
+
 }
 .main2{
-    height:4000px;
-    width: 1260px;
-    display: grid;
-    grid-template-columns: 70% 30%;
-    gap: 40px;
-    margin: 30px;
-}
-.big{
-height: 100%;
-width: 100%;
-background-color:black;
-display: grid;
-grid-template-columns: 50% 50%;
-grid-template-rows: 1fr 1fr 1fr 1fr;
-gap: 30px;
-padding: 30px;
-margin-bottom: 30px;
-
-}
-.big .text{
-color: white;
-position: relative;
-align-self: center;
-align-items: center;
-bottom: 150px;
-}
-.big input{
-    position: relative;
-    bottom: 130px;
-}
-.big div{
+    height: 1000px;
+    width: 100dvw;
+    background-color:#242424;
+    display: flex;
+    grid-template-columns: 67% 30%;
     justify-content: center;
     justify-items: center;
-
-    height: 100%;
-    width: 100%;
-    background-color:black;
+}
+.big{background-color:#242424;
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin-left: 20px;
+    
+}
+.bigdiv{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+
+background-color: #242424;
+    
+}
+.formdata{
+    position: relative;
+    justify-items:center;
+    align-content: center;
+    text-align: center;
+}
+.not{
+    height:1580px;
+    width:550px ;
+    background-color: #242424;
+}
+.thetext{
+    color:white;
+}
+.form1{width: 323px;
+    background-color: black;
+    color: white;
+    
 }
 .small{
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    justify-content: center;
-    justify-items: center;
-    }
-    .small .checkbox{
-        background-color: black;
-        color: white;
-        align-items: center;
-        text-align: center;
-    }
-.small h3{
     align-items: center;
-        text-align: center;
-        width: 100%;
-        background-color: yellow;
+    background-color: #242424;
+    background-size: 100% 100%;
+    justify-items: center;
+    align-items: center;
+    position: relative;
 }
-.ending{align-items: center;
-text-align: center;
-color: yellow;}
+
 .last{
     height: 300px;
-    width: 100dvw;
+    width:1685px;
     background-color:#242424;
     display: grid;
     grid-template-columns: 20% 20% 20% 40%;
-    
+    position: relative;
     justify-content: center;
-    
-    
+    top: 1380px;
+    left: 20px;
+    }
+    .main{height: 3660px;
+        background-color: #242424;
+        position: relative;
     }
     .last div{
         position: relative;
-        left: 40px;
+        left: 60px;
+        bottom: 0px;
     }
+    #menu{display: none;}
+
+@media screen and (max-width:600px) {
+.header{
+    background-color:#242424;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    position:relative;
+    
+}
+.upper{
+
+    display:grid;
+    grid-template-columns: 60% 40%;
+    position: relative;
+    
+}
+.right{
+    position: relative;
+    left: 100%;
+    display: flex;
+    
+}
+.two{
+    height: 100px;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    
+}
+.left1 img{
+    height: 30px;
+    width: 100px;
+}
+.right1{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    display: grid;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+ul li a{color: white;
+    display: grid;
+    font-size: xx-small;
+    position: relative;
+    top: 50%;
+
+}
+.right{
+    font-size: x-small;
+    left: 30px;
+
+}
+
+.firstbg{
+    height: 60%;
+    width: 756.73px;
+    background-image: url(./assets/Rectangle\ 3.png);
+    background-size: 100% 100%;
+    position: relative;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+}
